@@ -58,11 +58,11 @@ function validateUsername() {
   function finishProfileSetup() {
     const username = document.getElementById('username-input').value;
     if (username.trim()) {
-      alert(`This is a temporary popup. 
-        Welcome, ${username}! Your profile is now set up. 
-        This will lead to WIC Family`);
+    //   alert(`This is a temporary popup. 
+    //     Welcome, ${username}! Your profile is now set up. 
+    //     This will lead to WIC Family`);
       // You can now redirect the user to the dashboard or homepage
-      window.location.href = 'index.html'; // Redirect to dashboard after username is set.
+      window.location.href = 'single.html'; // Redirect to dashboard after username is set.
     } else {
       alert('Please enter a valid username.');
     }
