@@ -62,7 +62,7 @@ function validateUsername() {
         Welcome, ${username}! Your profile is now set up. 
         This will lead to WIC Family`);
       // You can now redirect the user to the dashboard or homepage
-      window.location.href = 'signup.html'; // Redirect to dashboard after username is set
+      window.location.href = 'index.html'; // Redirect to dashboard after username is set
     } else {
       alert('Please enter a valid username.');
     }
