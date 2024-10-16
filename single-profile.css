@@ -89,9 +89,10 @@
     margin-top: 10px;
 }
   
-  button:hover {
-    background-color: #16a085;
-  }
+button:hover {
+    color: #1f3067;
+    background-color: #3ec9c191;
+}
  .dashboard-header {
     margin-bottom: 30px;
 }
